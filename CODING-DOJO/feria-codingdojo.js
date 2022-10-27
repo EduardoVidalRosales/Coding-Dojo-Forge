@@ -6,11 +6,11 @@ var check = 0
 console.log(altura, edad);
 if (Laltura > altura) {   // si el limite de altura es mayor al del visitante arroja una negativa 
     console.log('no cumples con el limite de altura, Lo siento, chico. Tal vez el próximo año');
-    check =+ 1 // aqui se agrega un 1 al check para la comprobacion final
+    check++ // aqui se agrega un 1 al check para la comprobacion final
 }    
 if (Ledad > edad) { // si el limite de edad es mayor al del visitante arroja una negativa 
     console.log('no cumples con el limite de edad, Lo siento, chico. Tal vez el próximo año');
-    check =+ 1 // aqui se agrega un 1 al check para la comprobacion final
+    check++ // aqui se agrega un 1 al check para la comprobacion final
 }
 console.log(check)
 if (check == 0) { // si el check es igual a 0 arroja una positiva si es diferente a 0 arroja una negativa
@@ -18,3 +18,30 @@ if (check == 0) { // si el check es igual a 0 arroja una positiva si es diferent
 
 };
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//eduardo vial rosales
