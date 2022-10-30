@@ -53,3 +53,13 @@ var x = [1,3,5]
 x[0] = x[2];
 x[1] = x[0];
 console.log(x);
+var l = [2,4,5];
+var counter = 0;
+if(l[counter > 0]) {
+
+    console.log('coding');
+    counter = counter +1
+
+}
+console.log(x[counter],"counter");
+
